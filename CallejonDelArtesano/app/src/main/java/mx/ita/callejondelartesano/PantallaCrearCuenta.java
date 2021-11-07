@@ -33,7 +33,7 @@ public class PantallaCrearCuenta extends AppCompatActivity {
         editpass= (EditText)findViewById(R.id.password_text);
 
         buttonAgregar=(Button)findViewById(R.id.buttonAgregarusuario);
-
+// inicio de sesion
         buttonAgregar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
